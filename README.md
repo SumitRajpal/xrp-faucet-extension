@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# XRP Faucet wallet extension
+Chrome extension is connected to dev net feature including sending,funding own wallet, list transactions)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![screencapture-localhost-5173-2024-07-02-00_10_46 (1)](https://github.com/SumitRajpal/xrp-faucet-extension/assets/7436825/3b7304c3-ab5c-41c5-84bd-62d90d01908a)
+![screencapture-localhost-5173-2024-07-02-00_08_17 (1)](https://github.com/SumitRajpal/xrp-faucet-extension/assets/7436825/c73b48d6-c6fc-4000-a2cb-8c6bbf7986e4)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# To run the project
+1. npm i 
+2. npm run dev
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
