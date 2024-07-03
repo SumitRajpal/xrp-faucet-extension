@@ -1,0 +1,250 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@font-face {
+  font-family: SBOLD;
+  src: url(../src/assets/fonts/BOLD.OTF);
+}
+
+@font-face {
+  font-family: SMEDIUM;
+  src: url(../src/assets/fonts/MEDIUM.OTF);
+}
+
+@font-face {
+  font-family: SREGULAR;
+  src: url(../src/assets/fonts/REGULAR.OTF);
+}
+
+.bold {
+  font-family: SBOLD;
+}
+
+.medium {
+  font-family: SMEDIUM;
+}
+
+.regular {
+  font-family: SREGULAR;
+}
+
+.button1 {
+  background: linear-gradient(90deg, hsla(222, 100%, 61%, 1) 0%, hsla(276, 75%, 65%, 1) 100%);
+  border: 0;
+  border-radius: 0.5em;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: SREGULAR;
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.spin {
+  background: linear-gradient(90deg, hsla(222, 100%, 61%, 1) 0%, hsla(276, 75%, 65%, 1) 100%);
+}
+
+.button1:hover {
+  filter: drop-shadow(0 0 0.5em #b465e973);
+}
+
+.tcard:hover {
+  filter: drop-shadow(0 0 0.5em #b465e973);
+}
+
+.backgroundfaucet {
+  position: relative;
+  width: 25em;
+  height: 25em;
+  z-index: -1
+}
+
+.inputClass {
+  outline: 0;
+  outline-color: #3D74FF;
+  min-width: max-content;
+  text-align: center;
+  height: 2em;
+  color: #3D74FF;
+  font-size: 0.8em;
+  font-family: SREGULAR;
+  padding: 1;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: box-shadow .2s ease-in-out;
+  border-radius: 0.4em;
+  border-color: #b465e9;
+  filter: drop-shadow(0 0 0.05em #b465e9);
+}
+
+.tab {
+  min-width: 10em;
+  width: auto;
+  padding: 0.5em;
+  border-color: #3D74FF;
+  height: auto;
+  background: #3D74FF;
+  border: 0;
+  border-radius: 0.2em;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: SREGULAR;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.5;
+  outline: transparent;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.rcard {
+  overflow-y: hidden;
+  height: 10em;
+  min-width: 10em;
+  width: "100%";
+  padding: 0.5em;
+  border-color: #55bfc1;
+  height: auto;
+  background: #55bfc1;
+  border: 0;
+  border-radius: 0.2em;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: SREGULAR;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.5;
+  outline: transparent;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.scard {
+  overflow-y: hidden;
+  height: 10em;
+  min-width: 10em;
+  width: "100%";
+  padding: 0.5em;
+  border-color: #f78cc9;
+  height: auto;
+  background: #f78cc9;
+  border: 0;
+  border-radius: 0.2em;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: SREGULAR;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.5;
+  outline: transparent;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.tab:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.125rem #3D74FF;
+}
+
+.active:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.125rem #3D74FF;
+}
+
+.active {
+  box-shadow: 0 0 0 0.125rem #3D74FF;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-color: #3D74FF;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.125rem red;
+}
+
+::placeholder {
+  color: white;
+  font-size: large;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  opacity: 1;
+  /* Firefox */
+}
+
+.grid-container {
+  display: grid;
+  max-width: 1280px;
+  grid-template-columns: 1 1 1;
+  padding: 1em;
+  height: 42em
+}
+
+.grid-item {
+  text-align: center;
+}
