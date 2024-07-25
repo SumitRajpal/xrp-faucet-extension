@@ -2,7 +2,7 @@
 import './App.css'
 import { Client, dropsToXrp, Wallet, xrpToDrops } from 'xrpl'
 import { useEffect, useMemo, useState } from 'react'
-import xrp from '../public/xrp.png'
+import xrp from './assets/xrp128.png'
 import { InfinitySpin } from 'react-loader-spinner'
 import toast, { Toaster } from 'react-hot-toast'
 interface ISeed {

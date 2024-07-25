@@ -4,9 +4,9 @@
     "version": "1.0.0",
     "manifest_version": 3,
     "icons": {
-        "32": "xrp.png",
-        "48": "xrp.png",
-        "128": "xrp.png"
+        "32": "xrp32.png",
+        "48": "xrp48.png",
+        "128": "xrp128.png"
     },
     "permissions": [
         "storage"
